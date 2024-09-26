@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* styles.css */
+
+header {
+    position: relative; /* Necesario para que el pseudo-elemento se posicione correctamente */
+    padding: 15px 0;
+    text-align: center;
+    background-image: url('ban.png');
+    background-size: 40%; /* Asegura que la imagen cubra todo el fondo */
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header h1, header p {
+    color: rgb(11, 14, 160); /* Color del texto */
+    position: relative; /* Para que el pseudo-elemento se posicione correctamente */
+    display: inline-block; /* Asegura que el bloque tenga el tamaño correcto */
+    background-color: rgba(255, 255, 255, 0.815);
+    padding: 10px; /* Espaciado interno alrededor del texto */
+    border-radius: 200px; /* Bordes redondeados para un aspecto más suave */
+    box-shadow: 0 0 10px rgb(255, 0, 0); /* Sombra alrededor del bloque */
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.6); /* Efecto de sombreado del texto */
+    margin: 10px 0; /* Espaciado vertical entre el título y el párrafo */
+}
+
+header p {
+    display: block; /* Asegura que el párrafo se muestre como un bloque separado del título */
+}
+p{
+    color: rgb(5, 5, 5); /* Color del texto */
+    position: relative; /* Para que el pseudo-elemento se posicione correctamente */
+    display: inline-block; /* Asegura que el bloque tenga el tamaño correcto */
+    background-color: rgba(255, 255, 255, 0.616); /* Fondo blanco semitransparente */
+    padding: 10px; /* Espaciado interno alrededor del texto */
+    border-radius: 8px; /* Bordes redondeados para un aspecto más suave */
+    box-shadow: 0 0 10px rgb(255, 0, 0); /* Sombra alrededor del bloque */
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.6); /* Efecto de sombreado del texto */
+    margin: 10px 0; /* Espaciado vertical entre el título y el párrafo */ 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #272525;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #00ccff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: fantasy;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1d009c;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
